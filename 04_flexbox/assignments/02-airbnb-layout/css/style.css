@@ -1,0 +1,48 @@
+body {
+  font-size: 10px;
+}
+
+h1 {
+  color: salmon;
+}
+
+.city-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.city-container li {
+  height: 250px;
+  margin: 15px;
+  width: 250px;
+}
+
+p {
+  color: white;
+  font-size: 2em;
+}
+
+.sf {
+  background-image: url('../img/san-francisco.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ny {
+  background-image: url('../img/new-york.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.london {
+  background-image: url('../img/london.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

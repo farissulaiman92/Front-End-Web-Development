@@ -1,0 +1,37 @@
+body {
+  background-color: #ebefec;
+  color: #676c6e;
+  font-size: 10px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 400;
+}
+
+.guidebooks-container h1 {
+  font-size: 35px;
+  text-align: center;
+  margin: 25px auto;
+}
+
+.button {
+  background-color: white;
+  margin: 25px auto;
+  padding: 25px;
+  font-size: 18px;
+  width: 300px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+/* City row */
+.city-container {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.sf {
+  background-image: url('../img/san-francisco.jpg');
+  background-position: center center;
+  height: 250px;
+  width: 250px;
+}
